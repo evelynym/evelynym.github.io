@@ -10,7 +10,7 @@ class App extends React.Component{
     render(){
         return(
             <div className="portfolio">
-                <Router basename={process.env.PUBLIC_URL}>
+                <Router>
                     <Header />
                     <Routes>
                         <Route path="/" element ={<Home />}> </Route>
