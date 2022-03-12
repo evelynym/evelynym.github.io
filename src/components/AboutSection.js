@@ -14,9 +14,10 @@ export default function AboutSection() {
             <div className='aboutSection__left'>
                 <p className='aboutSection_p'>Let me introduce myself</p>
                 <h2 className='aboutSection_h'>About Me</h2>
-                <p>
-                I graduate from the University Of South Australia.<br />
-                I majored in software development.</p>
+                <p className='inner_p'>
+                I graduated from the University Of South Australia and 
+                majored in software development. I am passionate about web development.
+                </p>
                 <a variant="contained" href={pdf} download="min.pdf">Download CV</a>
             </div>
             
@@ -61,7 +62,7 @@ export default function AboutSection() {
                 <h1 className="about__heading">Experiences</h1>
                 <AboutInforItem 
                     title='Jul 2020 - Dec 2020'
-                    items={['Intership - Associate Software Engineer']}
+                    items={['Internship - Associate Software Engineer']}
                 />
                 <AboutInforItem 
                     title='Dec 2020 - Oct 2021'

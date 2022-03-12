@@ -10,20 +10,20 @@ export default function BeautySection() {
 
             <h2>Welecome to my webpage!</h2> 
             <ul className = 'Beauty_ul'>
-                <li className = 'Beauty_li'>Software engineer</li>
-                <li className = 'Beauty_li'>full-stack developer</li>
+                <li className = 'Beauty_li'>Software Engineer</li>
+                <li className = 'Beauty_li'>Full-Stack Developer</li>
                 <li className = 'Beauty_li'>Foodie</li>
             </ul>
             
             <h1>This is Min Yang, I'm a<br />
               <div class="c1">
                   <div class="type">
-                    Software engineer
+                    Software Engineer
                   </div>
               </div>
               <br />
               <div class="c2">
-                  <div class="type2">full-stack developer</div>
+                  <div class="type2">Full-Stack Developer</div>
               </div>
               <br />
             

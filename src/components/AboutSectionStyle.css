@@ -14,6 +14,9 @@
     flex: 1;
 }
 
+.inner_p{
+    width:80%;
+}
 .aboutSection__left{
     margin-left:10%
 }

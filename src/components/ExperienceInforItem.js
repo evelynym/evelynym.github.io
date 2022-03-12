@@ -36,11 +36,11 @@ function getStepContent(step) {
       return (
         <p>
           <h3>Intern - Kunshan Kersen Science &amp; Technology Co., Ltd.</h3> <br />
-          <h4>Major work &amp; Achivements:</h4>
+          <h4 style={{color:'gray'}}>Major work &amp; Achivements:</h4>
           
-          <p>Had exposure to the basic algorithm behind digital image processing.</p> 
-          <p>Experienced image manipulation with OpenCV.</p> 
-          <p>Participate in team discussions in brainstorming ideas.</p>
+          <p>Had exposure to the basic algorithms behind digital image processing.</p> 
+          <p>Experienced image manipulations with OpenCV.</p> 
+          <p>Participated in team discussions and contributed brainstorming ideas.</p>
           
         </p>
       );
@@ -48,23 +48,24 @@ function getStepContent(step) {
       return (
         <p>
           <h3>Full-time - Kunshan Kersen Science &amp; Technology Co., Ltd.</h3> <br />
-          <h4>Major work &amp; Achivements:</h4>
+          <h4 style={{color:'gray'}}>Major work &amp; Achivements:</h4>
           <p>Assisted the development of digital image processing application.</p>
           <p>Implemented modules such as Rectangle/Cicle Calliper.</p>
-          <p>Developed finance report generation application using Qt, C++ and MySQL with minimal supervsion.</p>
-          <p>Gathering requirements and updating work progress.</p>
+          <p>Developed finance report generation application using Qt, C++ and MySQL with minimal supervision.</p>
+          <p>Requirements gathering and business analysis.</p>
         </p>
       );
     case 2:
       return (
         <p>
           <h3>Full-time - QAD: Cloud ERP Software for Manufacturers</h3> <br />
-          <h4>Major work &amp; Achivements:</h4>
+          <h4 style={{color:'gray'}}>Major work &amp; Achivements:</h4>
           <p>Troubleshoot and fix bugs on QAD applications.</p>
           <p>Transform legacy desktop-application code into web application.</p>
           <p>Cooperate with other developers to improve QAD current features.</p>
           <p>Experience with modern CI/CD development tools such as Bamboo.</p>
           <p>Lean how to apply Agile software development in a real-world project.</p>
+          <p>Follow Agile development methodologies.</p>
         </p>
       );
     default:
