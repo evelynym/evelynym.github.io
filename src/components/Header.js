@@ -6,16 +6,16 @@ export default function Header() {
     <div className='NavMenuStyle'>
       <ul>
           <li>
-            <NavLink to='/'>HOME</NavLink>
+            <NavLink to='/portfolio'>HOME</NavLink>
           </li>
           <li>
-            <NavLink to='/about'>ABOUT</NavLink>
+            <NavLink to='/portfolio/about'>ABOUT</NavLink>
           </li>
           <li>
-            <NavLink to='/experiences'>EXPERIENCE</NavLink>
+            <NavLink to='/portfolio/experiences'>EXPERIENCE</NavLink>
           </li>
           <li>
-            <NavLink to='/contact'>CONTACT</NavLink>
+            <NavLink to='/portfolio/contact'>CONTACT</NavLink>
           </li>
       </ul>
     </div>
