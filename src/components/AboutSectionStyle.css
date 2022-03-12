@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+.container_brif {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 0,auto;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+.aboutSection__left,
+.aboutSection__right {
+    flex: 1;
+}
+
+.aboutSection__left{
+    margin-left:10%
+}
+
+.aboutSection_p {
+    font-size: 2rem;
+    color: grey;
+}
+
+.aboutSection_h {
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.aboutImg{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-left: -10%;
+    margin-top: 15%;
+}
+
+
+.aboutSection_items{
+    margin-top: 40px;
+}
+
+.aboutSection_item{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.about__heading{
+    font-size: 35px;
+    text-transform: uppercase;
+}

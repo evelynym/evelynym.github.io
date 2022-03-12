@@ -1,0 +1,12 @@
+.title_container{
+    text-align: center;
+}
+.title_sub{
+    font-size: 2rem;
+}
+
+.title_heading{
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}

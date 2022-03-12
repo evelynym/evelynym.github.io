@@ -1,0 +1,35 @@
+.NavMenuStyle{
+    position: flex;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem auto;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+li{
+    display:inline-block;
+    border-radius: 8px;
+    outline: none;
+    
+}
+
+a{
+    display: inline-block;
+    padding: 1rem 1rem;
+    text-decoration:none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color:lightgray;
+}

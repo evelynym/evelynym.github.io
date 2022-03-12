@@ -1,0 +1,34 @@
+/* .about_info_container{
+    display: flex;
+    align-items: center;
+    
+    position: relative;
+} */
+
+.items_detail{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: 30px;
+}
+
+.title{
+  padding: 0 5px;
+  margin: 0;
+  width: 15%;
+}
+
+.items{
+  display:inline;
+  justify-content: center;
+  
+} 
+
+
+.item{
+  padding: 6px 10px;
+  background-color:rgba(116, 116, 116, 0.1);
+  margin: 12px 5px;
+  border-radius: 3px;
+}
