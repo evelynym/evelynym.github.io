@@ -1,7 +1,7 @@
 import React from 'react'
 
 import AboutImg from "../image/min.jpg"
-import pdf from "../image/min.pdf"
+import pdf from "../image/Resume - Min Yang.pdf"
 import './AboutSectionStyle.css'
 import AboutInforItem from './AboutInforItem';
 
@@ -18,7 +18,7 @@ export default function AboutSection() {
                 I graduated from the University Of South Australia and 
                 majored in software development. I am passionate about web development.
                 </p>
-                <a variant="contained" href={pdf} download="min.pdf">Download CV</a>
+                <a variant="contained" href={pdf} download="Resume-MinYang.pdf" className='downloadBtn'>Download CV</a>
             </div>
             
 

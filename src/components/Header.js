@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function Header() {
   return (
     <div className='NavMenuStyle'>
-      <ul>
+      <ul className='header_ui'>
           <li>
             <NavLink to='/portfolio'>HOME</NavLink>
           </li>

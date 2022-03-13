@@ -1,5 +1,5 @@
 .NavMenuStyle{
-    position: flex;
+    display: flex;
     z-index: 100;
     top: 0;
     left: 0;
@@ -32,4 +32,18 @@ a{
 a:hover{
     text-decoration: underline;
     background-color:lightgray;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* .NavMenuStyle{
+        align-items: center;
+    } */
+
+    .header_ui{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        padding-inline-start: 0px !important;
+    }
 }

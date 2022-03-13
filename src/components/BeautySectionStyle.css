@@ -28,7 +28,74 @@
     border-radius: 3px;
 }
 
- .c1{
+.c1{
+  display: inline-block;
+}
+.c2{
+  display: inline-block;
+}
+.c3{
+  display: inline-block;
+}
+.c4{
+  display: inline-block;
+}
+h1{
+  font-size: 3.2rem;
+  margin-top: 1%;
+}
+h1 .type{
+    font-size: 2.5rem;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 1s steps(25, end) forwards;
+}
+h1 .type2{
+    font-size: 2.5rem; 
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 1s steps(25, end) forwards;
+    animation-delay: 1s;
+}
+h1 .type3{
+    font-size: 2.5rem; 
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 1s steps(25, end) forwards;
+    animation-delay: 2s;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: orange; }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .Beauty_ul{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .Beauty_li{
+    align-items: center;
+    font-size: 15px;
+    margin: 8px 3px;
+    border-radius: 3px;
+  }
+
+  .c1{
     display: inline-block;
   }
   .c2{
@@ -41,11 +108,11 @@
     display: inline-block;
   }
   h1{
-    font-size: 3.2rem;
+    font-size: 1.5rem;
     margin-top: 1%;
   }
   h1 .type{
-      font-size: 2.5rem;
+      font-size: 1.3rem;
       overflow: hidden;
       border-right: .15em solid orange;
       white-space: nowrap; 
@@ -54,7 +121,7 @@
         typing 1s steps(25, end) forwards;
   }
   h1 .type2{
-      font-size: 2.5rem; 
+      font-size: 1.3rem; 
       overflow: hidden;
       border-right: .15em solid orange;
       white-space: nowrap; 
@@ -64,7 +131,7 @@
       animation-delay: 1s;
   }
   h1 .type3{
-      font-size: 2.5rem; 
+      font-size: 1.3rem; 
       overflow: hidden;
       border-right: .15em solid orange; 
       white-space: nowrap; 
@@ -81,3 +148,4 @@
     from { border-color: transparent }
     to { border-color: orange; }
   }
+}

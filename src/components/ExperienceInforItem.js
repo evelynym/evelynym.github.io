@@ -53,6 +53,17 @@ function getStepContent(step) {
           <p>Implemented modules such as Rectangle/Cicle Calliper.</p>
           <p>Developed finance report generation application using Qt, C++ and MySQL with minimal supervision.</p>
           <p>Requirements gathering and business analysis.</p>
+          <hr />
+          <p>My time in Kersen Tech saw me join the digital image processing team. 
+            In my time there, I have gained knowledge of the workings of openCV and 
+            have completed several modules such as Threshold, Filters and Calipers. 
+            I also took the liberty and completed a few small projects with OpenCV on my own.</p>
+
+          <p>My second task there was to work on a finance report generator software to 
+            reduce repeated workloads for the finance and HR departments. 
+            For that project I had the chance to communicate with multiple stakeholders 
+            and analyze business requirements before finally implement functionalities, 
+            which levels up my communication and task management abilities.</p>
         </p>
       );
     case 2:
@@ -66,6 +77,24 @@ function getStepContent(step) {
           <p>Experience with modern CI/CD development tools such as Bamboo.</p>
           <p>Lean how to apply Agile software development in a real-world project.</p>
           <p>Follow Agile development methodologies.</p>
+          <hr />
+          <p>
+          QAD’s ERP system contains a large amount of legacy code that is 
+          written in Progress. Therefore, my first few weeks in QAD was mainly for 
+          studying the programming language and frameworks they use for their ERP 
+          system. I was able to pick up the syntax and grammar of Progress quickly 
+          and was able to take on more challenging tasks in a short time frame.</p>
+          <p>My main task is to transform stories brought up by QA into actual functions, 
+            which has allowed me to explore and understand the workings of different modules 
+            of the system and has given me in-depth knowledge of how a gigantic ERP system 
+            is pieced together from smaller parts. During my time here, I have completed 
+            and delivered several sprints in collaboration with another developer.</p>
+
+          <p>As our team adopts agile development lifecycle, I have had the chance to 
+            experience to explore project management with Jira and CI/DI with Bamboo, 
+            which has given me practical knowledge of how modern software development 
+            lifecycle functions and how different teams collaborate together to deliver 
+            tasks with highest efficiency and minimal overheads.</p>
         </p>
       );
     default:

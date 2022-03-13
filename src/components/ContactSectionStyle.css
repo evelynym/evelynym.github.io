@@ -11,3 +11,17 @@
     height: 100%;
     background-color: rgb(48, 47, 47);
 }
+
+@media only screen and (max-width: 768px) {
+    .container_wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .container_wrapper::after {
+      display: none;
+    }
+    .container_wrapper_left,
+    .container_wrapper_right {
+      max-width: 100%;
+    }
+}

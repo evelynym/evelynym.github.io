@@ -16,19 +16,19 @@ export default function BeautySection() {
             </ul>
             
             <h1>This is Min Yang, I'm a<br />
-              <div class="c1">
-                  <div class="type">
+              <div className="c1">
+                  <div className="type">
                     Software Engineer
                   </div>
               </div>
               <br />
-              <div class="c2">
-                  <div class="type2">Full-Stack Developer</div>
+              <div className="c2">
+                  <div className="type2">Full-Stack Developer</div>
               </div>
               <br />
             
-              <div class="c3">
-                  <div class="type3">Foodie</div>
+              <div className="c3">
+                  <div className="type3">Foodie</div>
               </div>
             </h1>
         </div>

@@ -10,3 +10,14 @@
     margin-top: 0.5rem;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 768px) {
+    .title_sub{
+        font-size: 1.5rem;
+    }
+
+    .title_heading{
+        font-size: 3rem;
+        margin-top: 0.2rem;
+    }
+}

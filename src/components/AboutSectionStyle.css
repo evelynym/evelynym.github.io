@@ -18,7 +18,7 @@
     width:80%;
 }
 .aboutSection__left{
-    margin-left:10%
+    margin-left:5%
 }
 
 .aboutSection_p {
@@ -46,7 +46,7 @@
 }
 
 .aboutSection_item{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 
@@ -54,3 +54,23 @@
     font-size: 35px;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 768px) {
+    .aboutSection_p{
+        font-size: 15px;
+    }
+    .aboutSection_h{
+        font-size: 25px;
+    }
+    .inner_p{
+        font-size: 10px;
+    }
+    .downloadBtn{
+        font-size: 10px;
+    }
+    .about__heading{
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+}
+
