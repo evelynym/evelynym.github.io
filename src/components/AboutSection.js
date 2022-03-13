@@ -16,7 +16,8 @@ export default function AboutSection() {
                 <h2 className='aboutSection_h'>About Me</h2>
                 <p className='inner_p'>
                 I graduated from the University Of South Australia and 
-                majored in software development. I am passionate about web development.
+                majored in software development. I am passionate about web development and
+                software development.
                 </p>
                 <a variant="contained" href={pdf} download="Resume-MinYang.pdf" className='downloadBtn'>Download CV</a>
             </div>
